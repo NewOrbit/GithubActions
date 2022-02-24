@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         tags: githubactionstest.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_0090866b443a44b6beb1d5ff43af9c75 }}/githubactionstest:${{ github.sha }}
-        file: ./Dockerfile
+        file: ./ExampleWebApp/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
