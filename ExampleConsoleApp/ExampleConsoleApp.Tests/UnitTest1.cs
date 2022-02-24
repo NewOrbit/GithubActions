@@ -10,10 +10,5 @@ namespace ExampleConsoleApp.Tests
         {
             Assert.IsTrue(true);
         }
-        [TestMethod]
-        public void FailingTest()
-        {
-            Assert.IsTrue(false);
-        }
     }
 }
